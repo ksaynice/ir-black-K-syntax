@@ -121,7 +121,17 @@ atom-text-editor, :host {
   }
 
   &.other.inherited-class {
+    font-style: italic;
     color: #9B5C2E;
+  }
+
+  &.other.attribute-name {
+    color: #FFD7B1;
+  }
+
+  &.name.tag.namespace,
+  &.other.attribute-name.namespace {
+    color: #E18964;
   }
 }
 
@@ -195,10 +205,7 @@ atom-text-editor, :host {
   background-color: rgba(177, 179, 186, 0.03);
 }
 
-.entity.other.inherited-class {
-  font-style: italic;
-  color: #9B5C2E;
-}
+
 
 .source .string .source {
   color: #EDEDED;
@@ -258,13 +265,6 @@ atom-text-editor, :host {
   color: #96CBFE;
 }
 
-.entity.other.attribute-name {
-  color: #FFD7B1;
-}
-
-.entity.name.tag.namespace, .entity.other.attribute-name.namespace {
-  color: #E18964;
-}
 
 .meta.selector.css .entity.name.tag {
   text-decoration: underline;
