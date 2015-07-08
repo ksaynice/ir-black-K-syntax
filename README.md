@@ -1,5 +1,5 @@
-# ir-black--k-syntax theme
+# IR_Black_K Syntax theme
 
-A short description of your theme.
+A light-on-dark color syntax theme for Atom which adapted from Todd Werth’s [original IR_Black TextMate Theme](http://toddwerth.com/2007/03/29/ir_black-the-last-textmate-theme-youll-ever-need/).
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![A screenshot of your theme]()
