@@ -334,57 +334,60 @@ atom-text-editor, :host {
   }
 }
 
-.markup.deleted {
-  color: #F8F8F8;
-  background-color: #420E09;
-}
+.markup {
+  &.bold {
+    font-weight: bold;
+    color: #E9C062;
+  }
 
-.markup.changed {
-  color: #F8F8F8;
-  background-color: #4A410D;
-}
+  &.changed {
+    color: #F8F8F8;
+    background-color: #4A410D;
+  }
 
-.markup.inserted {
-  color: #F8F8F8;
-  background-color: #253B22;
-}
+  &.deleted {
+    color: #F8F8F8;
+    background-color: #420E09;
+  }
 
-.markup.italic {
-  font-style: italic;
-  color: #E9C062;
-}
+  &.italic {
+    font-style: italic;
+    color: #E9C062;
+  }
 
-.markup.bold {
-  font-weight: bold;
-  color: #E9C062;
-}
+  &.underline {
+    text-decoration: underline;
+    color: #E18964;
+  }
 
-.markup.underline {
-  text-decoration: underline;
-  color: #E18964;
-}
+  &.inserted {
+    color: #F8F8F8;
+    background-color: #253B22;
+  }
 
-.markup.quote {
-  font-style: italic;
-  color: #E1D4B9;
-  background-color: rgba(254, 224, 156, 0.07);
-}
+  &.list {
+    color: #E1D4B9;
+  }
 
-.markup.heading, .markup.heading .entity {
-  color: #FEDCC5;
-  background-color: #632D04;
-}
+  &.quote {
+    font-style: italic;
+    color: #E1D4B9;
+    background-color: rgba(254, 224, 156, 0.07);
+  }
 
-.markup.list {
-  color: #E1D4B9;
-}
+  &.raw {
+    color: #578BB3;
+    background-color: rgba(177, 179, 186, 0.03);
+  }
 
-.markup.raw {
-  color: #578BB3;
-  background-color: rgba(177, 179, 186, 0.03);
-}
+  &.comment {
+    font-style: italic;
+    color: #F67B37;
+  }
 
-.markup .comment {
-  font-style: italic;
-  color: #F67B37;
+  .heading,
+  .heading .entity {
+    color: #FEDCC5;
+    background-color: #632D04;
+  }
 }
