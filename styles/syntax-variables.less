@@ -13,13 +13,13 @@
 @syntax-invisible-character-color: rgba(202, 226, 251, 0.24);
 
 // For find and replace markers
-@syntax-result-marker-color: rgba(202, 226, 251, 0.24);
-@syntax-result-marker-color-selected: @syntax-text-color;
+@syntax-result-marker-color: #888;
+@syntax-result-marker-color-selected: @syntax-cursor-color;
 
 // Gutter colors
 @syntax-gutter-text-color: @syntax-text-color;
-@syntax-gutter-text-color-selected: @syntax-text-color;
-@syntax-gutter-background-color: #000000;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: lighten(@syntax-background-color, 5%);
 @syntax-gutter-background-color-selected: rgba(255, 255, 255, 0.14);
 
 // For git diff info. i.e. in the gutter
