@@ -1,11 +1,13 @@
 {
-  "name": "ir-black-k-syntax",
+  "name": "ir-black--k-syntax",
   "theme": "syntax",
   "version": "0.0.1",
   "description": "A light-on-dark color syntax theme which adapted from Todd Werth’s original IR_Black TextMate",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "ir-black",
+    "ir_black"
   ],
   "repository": "https://github.com/ksaynice/ir-black-K-syntax",
   "license": "MIT",
