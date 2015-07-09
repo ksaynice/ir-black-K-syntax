@@ -1,5 +1,5 @@
 {
-  "name": "ir-black--k-syntax",
+  "name": "ir-black-k-syntax",
   "theme": "syntax",
   "version": "0.1.0",
   "description": "A light-on-dark color syntax theme which adapted from Todd Werth’s original IR_Black TextMate",
