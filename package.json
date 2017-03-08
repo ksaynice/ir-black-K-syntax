@@ -1,17 +1,20 @@
 {
   "name": "ir-black-k-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A light-on-dark color syntax theme for Atom",
   "keywords": [
     "syntax",
     "theme",
     "ir-black",
-    "ir_black"
+    "ir_black",
+    "ir black",
+    "ir",
+    "black"
   ],
   "repository": "https://github.com/ksaynice/ir-black-K-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   }
 }
